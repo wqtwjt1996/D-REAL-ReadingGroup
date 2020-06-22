@@ -1,6 +1,6 @@
 #head{
     color:white;
-    width:960px;
+    width:1000px;
     margin:auto;
     border-bottom:dashed 1px white;
     margin-bottom:5px;
@@ -20,7 +20,7 @@ a{
 }
 
 #wrapper{
-    width:960px;
+    width:1000px;
     margin:auto;
     margin-top:10px;
 }
