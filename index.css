@@ -1,7 +1,7 @@
 #head{
     color:white;
     width:970px;
-    margin-left: 25%;
+    margin:auto;
     border-bottom:dashed 1px white;
     margin-bottom:5px;
 }
@@ -45,7 +45,7 @@ a{
 }
 
 #footer{
-    width:960px;
+    width:970px;
     height:70px;
     margin:auto;
     border-top:dashed 1px white;
