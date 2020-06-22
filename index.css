@@ -1,7 +1,7 @@
 #head{
     color:white;
     width:960px;
-    margin-left: 550px;
+    margin-left: 540px;
     border-bottom:dashed 1px white;
     margin-bottom:5px;
 }
@@ -35,7 +35,7 @@ a{
 }
 
 .side{
-    width:240px;
+    width:250px;
     background-color:white;
     float:right;/*往右浮动*/
     border-radius:6px;
