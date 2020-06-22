@@ -101,7 +101,7 @@ a{
 }
 
 .item_content{
-    padding-left:100px;
+    padding-left:0px;
     margin:0;
 }
 
@@ -159,7 +159,6 @@ a{
 
 .top_article h3{
     font-size:18px;
-    font-style:italic;
     border-bottom:dashed 1px #ccc;
     color:999;
     padding-bottom:5px;
