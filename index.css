@@ -1,6 +1,6 @@
 #head{
     color:white;
-    width:1000px;
+    width:960px;
     margin:auto;
     border-bottom:dashed 1px white;
     margin-bottom:5px;
@@ -20,7 +20,7 @@ a{
 }
 
 #wrapper{
-    width:1000px;
+    width:960px;
     margin:auto;
     margin-top:10px;
 }
@@ -35,7 +35,7 @@ a{
 }
 
 .side{
-    width:300px;
+    width:240px;
     background-color:white;
     float:right;/*往右浮动*/
     border-radius:6px;
