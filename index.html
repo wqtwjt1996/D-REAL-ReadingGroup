@@ -24,17 +24,31 @@
 		    
         <div class="item">
 	    	<div class="item_content">
-					<h2><font face="verdana" color="black" size="5">2021-05-12</font></h2>
-					<h3><a href="https://arxiv.org/abs/1906.05849"><font face="verdana" color="black" size="3"><U></U><font face="verdana" color="black" size="0.5"></font> Contrastive Multiview Coding</font></a></h3>
-					<p class="item_info"><font face="verdana" color="black" size="2.5">Accepted to: ArXiv'19 </font></p>
-		<p class="item_info"><font face="verdana" color="black" size="2.5">Presenter : Qitong </font></p>
-		<p class="item_info"><font face="verdana" color="black" size="2.5">Time: 9:00-10:00 p.m. EST</font></p>
-		<p class="item_info"><font face="verdana" color="black" size="2.5">Zoom: <a href="https://udel.zoom.us/j/96483565680"><font face="verdana" color="red" size="2.5">https://udel.zoom.us/j/96483565680</font></a></font></p>
-		<p class="item_info"><font face="verdana" color="black" size="2.5">Slides: <a href="https://docs.google.com/presentation/d/1senfVLamhInuB7S4LYhgmswXmF3iPS5Ac5RDiilsHIs/edit?usp=sharing"><font face="verdana" color="red" size="2.5">link</font></a></font></p>
+					<h2><font face="verdana" color="black" size="5">2021-09-15</font></h2>
+					<h3><a href="https://arxiv.org/pdf/2006.12013.pdf"><font face="verdana" color="black" size="3"><U></U><font face="verdana" color="black" size="0.5"></font> CLUB: A Contrastive Log-ratio Upper Bound of Mutual Information</font></a></h3>
+					<p class="item_info"><font face="verdana" color="black" size="2.5">Accepted to: ICML-2020 </font></p>
+		<p class="item_info"><font face="verdana" color="black" size="2.5">Presenter : Qitong Wang</font></p>
+		<p class="item_info"><font face="verdana" color="black" size="2.5">Time: 8:00-9:00 p.m. EST</font></p>
+		<!-- <p class="item_info"><font face="verdana" color="black" size="2.5">Zoom: <a href="https://udel.zoom.us/j/96483565680"><font face="verdana" color="red" size="2.5">https://udel.zoom.us/j/96483565680</font></a></font></p> -->
+		<!-- <p class="item_info"><font face="verdana" color="black" size="2.5">Slides: <a href="https://docs.google.com/presentation/d/1senfVLamhInuB7S4LYhgmswXmF3iPS5Ac5RDiilsHIs/edit?usp=sharing"><font face="verdana" color="red" size="2.5">link</font></a></font></p> -->
 		<p class="item_descri">
 		    <font face="verdana" color="black" size="2.5">	
-			Humans view the world through many sensory channels, e.g., the long-wavelength light channel, viewed by the left eye, or the high-frequency vibrations channel, heard by the right ear. Each view is noisy and incomplete, but important factors, such as physics, geometry, and semantics, tend to be shared between all views (e.g., a "dog" can be seen, heard, and felt). We investigate the classic hypothesis that a powerful representation is one that models view-invariant factors. We study this hypothesis under the framework of multiview contrastive learning, where we learn a representation that aims to maximize mutual information between different views of the same scene but is otherwise compact. Our approach scales to any number of views, and is view-agnostic. We analyze key properties of the approach that make it work, finding that the contrastive loss outperforms a popular alternative based on cross-view prediction, and that the more views we learn from, the better the resulting representation captures underlying scene semantics. Our approach achieves state-of-the-art results on image and video unsupervised learning benchmarks.
+				Mutual information (MI) minimization has gained considerable interests in various machine learning tasks. However, estimating and minimizing MI in high-dimensional spaces remains a challenging problem, especially when only samples, rather than distribution forms, are accessible. Previous works mainly focus on MI lower bound approximation, which is not applicable to MI minimization problems. In this paper, we propose a novel Contrastive Log-ratio Upper Bound (CLUB) of mutual information. We provide a theoretical analysis of the properties of CLUB and its variational approximation. Based on this upper bound, we introduce a MI minimization training scheme and further accelerate it with a negative sampling strategy. Simulation studies on Gaussian distributions show the reliable estimation ability of CLUB. Real-world MI minimization experiments, including domain adaptation and information bottleneck, demonstrate the effectiveness of the proposed method. The code is at https://github.com/Linear95/CLUB.
 	</div> </div>
+
+	<div class="item">
+		<div class="item_content">
+				<h2><font face="verdana" color="black" size="5">2021-05-12</font></h2>
+				<h3><a href="https://arxiv.org/abs/1906.05849"><font face="verdana" color="black" size="3"><U></U><font face="verdana" color="black" size="0.5"></font> Contrastive Multiview Coding</font></a></h3>
+				<p class="item_info"><font face="verdana" color="black" size="2.5">Accepted to: ArXiv'19 </font></p>
+	<p class="item_info"><font face="verdana" color="black" size="2.5">Presenter : Qitong </font></p>
+	<p class="item_info"><font face="verdana" color="black" size="2.5">Time: 9:00-10:00 p.m. EST</font></p>
+	<p class="item_info"><font face="verdana" color="black" size="2.5">Zoom: <a href="https://udel.zoom.us/j/96483565680"><font face="verdana" color="red" size="2.5">https://udel.zoom.us/j/96483565680</font></a></font></p>
+	<p class="item_info"><font face="verdana" color="black" size="2.5">Slides: <a href="https://docs.google.com/presentation/d/1senfVLamhInuB7S4LYhgmswXmF3iPS5Ac5RDiilsHIs/edit?usp=sharing"><font face="verdana" color="red" size="2.5">link</font></a></font></p>
+	<p class="item_descri">
+		<font face="verdana" color="black" size="2.5">	
+		Humans view the world through many sensory channels, e.g., the long-wavelength light channel, viewed by the left eye, or the high-frequency vibrations channel, heard by the right ear. Each view is noisy and incomplete, but important factors, such as physics, geometry, and semantics, tend to be shared between all views (e.g., a "dog" can be seen, heard, and felt). We investigate the classic hypothesis that a powerful representation is one that models view-invariant factors. We study this hypothesis under the framework of multiview contrastive learning, where we learn a representation that aims to maximize mutual information between different views of the same scene but is otherwise compact. Our approach scales to any number of views, and is view-agnostic. We analyze key properties of the approach that make it work, finding that the contrastive loss outperforms a popular alternative based on cross-view prediction, and that the more views we learn from, the better the resulting representation captures underlying scene semantics. Our approach achieves state-of-the-art results on image and video unsupervised learning benchmarks.
+</div> </div>
 	
        <div class="item">
 	    	<div class="item_content">
@@ -75,8 +89,8 @@
 					<p class="item_info"><font face="verdana" color="black" size="2.5">Accepted to: ECCV 2020 </font></p>
 		<p class="item_info"><font face="verdana" color="black" size="2.5">Presenter : Ziyang </font></p>
 		<p class="item_info"><font face="verdana" color="black" size="2.5">Time: 9:00-10:00 p.m. EST</font></p>
-		<p class="item_info"><font face="verdana" color="black" size="2.5">Zoom: <a href="https://udel.zoom.us/j/96483565680"><font face="verdana" color="red" size="2.5">https://udel.zoom.us/j/96483565680</font></a></font></p>
-		<p class="item_info"><font face="verdana" color="black" size="2.5">Slides: <a href="https://docs.google.com/presentation/d/1senfVLamhInuB7S4LYhgmswXmF3iPS5Ac5RDiilsHIs/edit?usp=sharing"><font face="verdana" color="red" size="2.5">link</font></a></font></p>
+		<p class="item_info"><font face="verdana" color="black" size="2.5">Zoom: <a href="https://udel.zoom.us/j/95652916677"><font face="verdana" color="red" size="2.5">https://udel.zoom.us/j/95652916677</font></a></font></p>
+		<p class="item_info"><font face="verdana" color="black" size="2.5">Slides: <font face="verdana" color="red" size="2.5">Coming soon...</font></a></font></p>
 		<p class="item_descri">
 		    <font face="verdana" color="black" size="2.5">	
 			The objective of this paper is self-supervised learning from video, in particular for representations for action recognition. We make the following contributions: (i) We propose a new architecture and learning framework Memory-augmented Dense Predictive Coding (MemDPC) for the task. It is trained with a predictive attention mechanism over the set of compressed memories, such that any future states can always be constructed by a convex combination of the condense representations, allowing to make multiple hypotheses efficiently. (ii) We investigate visual-only self-supervised video representation learning from RGB frames, or from unsupervised optical flow, or both. (iii) We thoroughly evaluate the quality of learnt representation on four different downstream tasks: action recognition, video retrieval, learning with scarce annotations, and unintentional action classification. In all cases, we demonstrate state-of-the-art or comparable performance over other approaches with orders of magnitude fewer training data.
@@ -574,16 +588,16 @@ We present a new compact but dense representation of scene geometry which is con
 
                                 <p align="left"><font face="verdana" color="black" size="2.8">The reading group is held weekly by <a href="https://sites.google.com/site/xipengcshomepage/research?authuser=0"> <font face="verdana" color="black" size="2.8"> <U> D-REAL </U> </font> </a> at University of Delaware. The goal is to broaden the scope of research interest in <i>Machine Learning</i>, <i>Deep Learning</i>, and <i>Computer Vision</i> by sharing and discussing high-quality papers. </font></p>
                                 <br/><p align="left"><font face="verdana" color="black" size="2.8">Each presenter shall provide the link of paper and presentation slides at least ten hours before meeting.</font></p>
-                                <br/><p align="left"><font face="verdana" color="black" size="2.8">Please feel free to contact Fengchun (fengchun at udel dot edu) if you want to join the reading group (presentation is highly welcome but not required).</font></p>
+                                <br/><p align="left"><font face="verdana" color="black" size="2.8">Please feel free to contact Qitong (wqtwjt at udel dot edu) if you want to join the reading group (presentation is highly welcome but not required).</font></p>
 
                     </div>
                 </div>
 
                 <div class="top_article">
-                    <h3><font face="verdana" color="black" size="4">Schedule</font></h3>
+                    <h3><font face="verdana" color="black" size="4">Schedule at Fall 2021</font></h3>
                     <ul>
-                        <li><font face="verdana" color="black" size="2.8">Fengchun: Mar 10th </font></li>
-                        <li><font face="verdana" color="black" size="2.8">Nate: Mar 17th </font></li>
+                        <li><font face="verdana" color="black" size="2.8">Fengchun: Sep. 15th </font></li>
+                        <!-- <li><font face="verdana" color="black" size="2.8">Nate: Mar 17th </font></li>
                         <li><font face="verdana" color="black" size="2.8">Tanvir: Mar 24th </font></li>
 			<li><font face="verdana" color="black" size="2.8">Meng: Mar 31st </font></li>
 			<li><font face="verdana" color="black" size="2.8">Ruochen: Apr 7th </font></li>
@@ -591,15 +605,15 @@ We present a new compact but dense representation of scene geometry which is con
                         <li><font face="verdana" color="black" size="2.8">Pranjal: Apr 21st </font></li>
                         <li><font face="verdana" color="black" size="2.8">Fengchun : Apr 28th </font></li>
 			<li><font face="verdana" color="black" size="2.8">Tang : May 5th </font></li>
-			<li><font face="verdana" color="black" size="2.8">Qitong : May 12th </font></li>
+			<li><font face="verdana" color="black" size="2.8">Qitong : May 12th </font></li> -->
                     </ul>
                 </div>
 
                 <div class="top_article">
                     <h3><font face="verdana" color="black" size="4">Contact</font></h3>
                     <ul>
-                        <li><font face="verdana" color="black" size="2.8">Person: Fengchun Qiao</font></li>
-						<li><font face="verdana" color="black" size="2.8">Email: fengchun at udel dot edu</font>
+                        <li><font face="verdana" color="black" size="2.8">Person: Qitong Wang</font></li>
+						<li><font face="verdana" color="black" size="2.8">Email: wqtwjt at udel dot edu</font>
                     </ul>
                 </div>
 
